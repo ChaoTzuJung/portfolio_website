@@ -44,6 +44,9 @@ export const Div3 = styled.div`
     grid-area: 1 / 4 / 2 / 6;
   }
 `;
+export const Span = styled.div`
+  font-size: 2rem;
+`;
 
 // Navigation Links
 export const NavLink = styled.a`
@@ -114,11 +117,10 @@ export const SocialIcons = styled.a`
 transition: 0.3s ease;
 color: white;
 border-radius: 50px;
-  padding: 8px;
+padding: 8px;
 &:hover {
     background-color: #212d45;
     transform: scale(1.2);
     cursor: pointer;
-    
   }
 `

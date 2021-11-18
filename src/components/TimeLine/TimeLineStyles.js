@@ -111,6 +111,7 @@ export const CarouselItemText = styled.p`
     line-height: 18px;
     padding-right: 32px;
   }
+
   @media ${props => props.theme.breakpoints.sm} {
     font-size: 10px;
     line-height: 16px;
@@ -119,7 +120,6 @@ export const CarouselItemText = styled.p`
 `
 export const CarouselButtons = styled.div`
   width: 288px;
-
   display: none;
   visibility: hidden;
 
